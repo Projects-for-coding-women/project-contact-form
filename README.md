@@ -6,8 +6,11 @@ We will be using HTML, CSS, JavaScript and React
 
 **Basic functionality:** we want the user to be able to fill in their data and a message. For this purpose, the contact form will have fields for name, email and message.
 
-1. Track your code with Git by using git init in the terminal
-1. Create a function component called Form with input fields for name, email and message, plus a submit button
+1. Create a React app using `npx create-react-app project-contact-form`
+1. Delete the css from the App.css file and use this file for your css
+1. Delete the code in the App.js file between `<div className="App">` and the closing `</div>`
+1. Create a folder called `components` in the src folder
+1. Create a function component called ContactForm with input fields for name, email and message, plus a submit button
 1. 
 
 ---
