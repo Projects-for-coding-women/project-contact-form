@@ -13,6 +13,8 @@ We will be using HTML, CSS, JavaScript and React
 1. Create a new file and create a function component called ContactForm (you can use the extension .jsx instead of .js)
 1. Add input fields for name, email and message, plus a submit button (remember: React/JSX uses `htmlFor`, not `for`, and `className` instead of `class`)
 1. Use flexbox to center the form, give it margins and add margins between the input fields (it can be very basic because you can style the form later on)
+1. The ContactForm component uses *controlled inputs*: you control the input by creating state to hold the input, updating that state when the value changes, and tell the input what value to display
+1. For this, you need to write three hooks for the input fields (**remember:** if your code used `useState()` then you need to import React useState())
 1. 
 
 ---
