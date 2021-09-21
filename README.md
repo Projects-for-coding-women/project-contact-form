@@ -16,12 +16,15 @@ We will be using HTML, CSS, JavaScript and React
 1. Add a submit button (remember: React/JSX uses `htmlFor`, not `for`, and `className` instead of `class`)
 1. Use flexbox to center the form, give it margins and add margins between the input fields (it can be very basic because you can style the form later on)
 1. The ContactForm component uses *controlled inputs*: you control the input by creating state to hold the input, updating that state when the value changes, and tell the input what value to display
-1. For this, you need to add a hook with an object containing the input data (**remember:** if your code used `useState()` then you need to import React useState())
+1. For this, you need to add a hook with an object containing the input data (**remember:** if your code used `useState()` you need to import React useState())
 1. Use `onChange` with a `handleChange()` function that detects any change to the value in the field, and set the variable to this new value with the hooks (remember to add `e.preventDefault()` to prevent automatic page refresh). Hint: you have `name` and `value` for each input field, and you can use those in the `handleChange()` function to set the new data values
 1. We will use a JSON file as database for the user details and messages, and use this as an API mockup. This means adding the JSON data to a local file in the project directory, and make fetch or GET calls to that file instead of a real database.
 1. For this, first create a `data.json` file in the `public` folder of the project (`fetch` API calls made from a React component always look for files inside this folder)
 1. Put some dummy data in the `data.json` file, to be able to use this for testing later on
-1. To fetch the data, create a method `getData()` (you can look at the code in the `fetch.js` file, if you get stuck)
+1. To fetch the data, create a method `getData()` (this is pretty complicated, so have a look at the code in the `fetch.js` file, when you are stuck)
+1. Read the code if you have copied it from the `fetch.js` file, and make sure you understand what it is doing (you can forget the headers part for now)
+1. Test your code: the dummy data will show up in the console of the inspector
+1. If you get an error, remember the method uses `useEffect()` ... did you import that?
 1. 
 
 ---
