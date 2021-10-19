@@ -1,4 +1,4 @@
-# Project Contact Form
+## Project Contact Form
 
 ### The goal of this project is to practice working with forms
 
