@@ -4,7 +4,7 @@
 
 We will be using HTML, CSS, JavaScript and React
 
-**Basic functionality:** we want the user to be able to fill in their data and a message. For this purpose, the contact form will have fields for name, email and message.
+**Basic functionality:** we want the user to be able to fill in their data and a message. The contact form will have fields for name, email and message. We will also use a JSON file as database for the user details and messages.
 
 1. Create a React app using `npx create-react-app project-contact-form`
 1. Delete the css from the App.css file and use this file for your css
