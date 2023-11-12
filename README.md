@@ -19,6 +19,7 @@ We will be using HTML, CSS, JavaScript and React
 1. For this, you need to add a hook with an object containing the input data (**remember:** if your code used `useState()` you need to import React useState())
 1. Use `onChange` with a `handleChange()` function that detects any change to the value in the field, and set the variable to this new value with the hooks (remember to add `e.preventDefault()` to prevent automatic page refresh). Hint: you have `name` and `value` for each input field, and you can use those in the `handleChange()` function to set the new data values
 
+**For more advanced students:**
 You can complete this project adding functionality for retrieving, updating and deleting data. You will have to build a small database for this, or make use of local storage.
 
 ---
